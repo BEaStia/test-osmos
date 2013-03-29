@@ -374,11 +374,15 @@ public class Test extends Sprite {
         if(this.GameState=="Pause")
         {
             GameState="Game";
+            timer.start();
         }
         else
         {
             if(GameState=="Game")
+            {
                 GameState="Pause";
+                timer.stop();
+            }
         }
     }
 
@@ -401,6 +405,7 @@ public class Test extends Sprite {
         {
             menu.ListVisible=false;
             GameState = "Game";
+            timer.start();
         }
         else
         {
@@ -408,6 +413,7 @@ public class Test extends Sprite {
             {
                 menu.ListVisible=true;
                 GameState = "Menu";
+                timer.stop();
             }
         }
     }
@@ -424,32 +430,11 @@ public class Test extends Sprite {
         }
         if(event.keyCode==49)
         {
-            if(GameState =="Menu")
-            {
-                GameState = "Game";
-            }
-            else
-            {
-                if(GameState =="Game")
-                {
-                    GameState = "Menu";
-                }
-            }
+            callMenu();
         }
         if(event.keyCode==50)
         {
-            if(GameState =="Pause")
-            {
-                GameState = "Game";
-            }
-            else
-            {
-                if(GameState =="Game")
-                {
-                    GameState = "Pause";
-                }
-            }
-
+            Pause();
         }
         if(event.keyCode==51)
         {
