@@ -1,0 +1,6 @@
+<cross-domain-policy>
+<allow-access-from domain="www.vkontakte.ru" />
+<allow-access-from domain="http://www.vkontakte.ru" />
+<allow-access-from domain="http://vkontakte.ru" />
+<allow-access-from domain="*.vkontakte.ru" />
+</cross-domain-policy>
