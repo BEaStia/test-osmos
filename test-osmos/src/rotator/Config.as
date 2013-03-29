@@ -8,7 +8,6 @@
 package rotator {
 
 
-import com.brokenfunction.json.decodeJson;
 import com.developmentarc.core.datastructures.utils.HashTable;
 
 import flash.display.ColorCorrection;
@@ -106,7 +105,7 @@ import mx.core.IFlexAsset;
                 GenerateColorConfig();
             GenerateEnemies(numberOfEnemies);
 
-            var conf:Object = com.brokenfunction.json.decodeJson(configText);
+            var conf:Object = JSON.parse(configText);
             data = new HashTable();
             data.addItem("user",conf.user);
             data.addItem("enemy",conf.enemy);
