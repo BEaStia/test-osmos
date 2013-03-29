@@ -6,6 +6,9 @@
  * To change this template use File | Settings | File Templates.
  */
 package rotator {
+/**
+ * Это класс следа, который остается за объектом
+ */
 public class MyTrace extends BaseObject {
     public var TimeToLive:Number = 5;
     public function MyTrace(X:Number, Y:Number,R:Number) {

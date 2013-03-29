@@ -26,6 +26,12 @@ public class SButton extends Sprite {
         this.addChild(button);
     }
 
+    /**
+     * Функция отрисовки кнопок по бокам
+     * @param rgb - цвет кнопки
+     * @param type - тип кнопки
+     * @return - кнопка
+     */
     private function drawButtonState(rgb:uint,type:int):Sprite {
         var sprite:Sprite = new Sprite();
         if(type == 0)

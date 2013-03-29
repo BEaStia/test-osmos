@@ -17,6 +17,10 @@ public class Record
     public var recordSpeed:Number;
     public var userName:String;
 
+    /**
+     * Запись в таблице
+     * @param obj
+     */
     public function Record(obj:Object)
     {
         this.recordDate=obj.recordDate;
@@ -24,7 +28,7 @@ public class Record
         this.recordSpeed=obj.recordSpeed;
         this.userName=obj.userName;
     }
-    public function toString()
+    public function toString():String
     {
         var S:String = "";
         var date:Date=new Date();

@@ -10,52 +10,65 @@ package rotator {
 
 import com.developmentarc.core.datastructures.utils.HashTable;
 
-import flash.display.ColorCorrection;
-import flash.display.Stage;
-import flash.utils.ByteArray;
 
-import mx.core.IFlexAsset;
+import flash.display.Stage;
 
     public class Config {
+        //Текст для конфигурации
         public static var configText:String ="";
-        public static var UserColor:HashTable;
-        public static var EnemyColors:HashTable;
+        //Данные цветов
         public static var data:HashTable;
+        //Максимальный размер
         public static var MaxSize:int=0;
+        //Размеры пользовательского окна
         public static var windowHeight:int = 0;
         public static var windowWidth:int = 0;
+        //Стартовые позиции объектов
         public static var Positions:Array;
+        //Количество противников
         public static var NumberOfEnemies:int=0;
+        //Порог размера, меньше которого объекты удаляются
         public static var DeleteRate:int = 10;
+        //Скорость поедания
         public static var EatingRate:int = 2;
+        //Штраф к скорости (от 0 до 1). Чем меньше - тем сильнее уменьшается скорость
         public static var DegradationRate:Number = 0.99;
+        //ссылка на stage Главного класса
         public static var stage:Stage;
+        //Скорость перемещения пользователя
         public static var UserSpeed:Number = 1.2;
+        //Максимальное ускорение пользователя(deprecated)
         public static var MaxVelocity:Number = 1.2;
+        //Включен ли звук
         public static var SoundEnabled:Boolean=true;
+
+        //setter для stage
         public static function SetStage(_stage:Stage):void
         {
             stage = _stage;
         }
+
+        //При отстутствии подключения к внешнему серверу, самостоятельно сгенерировать цвета
         public static function GenerateColorConfig():void
         {
-            configText="";/*
-            configText='{"user": {"color": [102, 88, 110]}, "enemy": {';
-            var j:int= 0,i:int=0;
+            /*configText='{"user": {"color": [102, 88, 110]}, "enemy": {';
+            var j:int, i:int;
+            j = 0;
+            i = 0;
             for(i=27;i<220;i++)
             {
                 j++;
                 configText+='"color'+j.toString()+'" :['+ i.toString()+", 27,244],";
             }
             configText=configText.substr(0,configText.length-1);
-            configText+='}}';
-            trace(configText);*/
-
+            configText+='}}';*/
+            configText="";
         }
+        //Задать позиции обхектов
         public static function GenerateEnemies(number:int):void
         {
             NumberOfEnemies=number;
-            Positions=new Array();
+            Positions=[];
             for(var i:int=0;i<NumberOfEnemies;i++)
             {
                 var arr:HashTable=new HashTable();
@@ -76,6 +89,7 @@ import mx.core.IFlexAsset;
             }
 
         }
+        //Подходит ли позиция для постановки объекта радиусом R в координаты X,Y
         private static function positionSuits(X:Number, Y:Number, R:Number):Boolean
         {
             var flag:Boolean=true;
@@ -87,20 +101,17 @@ import mx.core.IFlexAsset;
                     break;
                 }
             }
-            if(flag)
-                return true;
-            else
-                return false;
+            return flag;
         }
+        //проверка коллизии объектов при генерации
         private static function suits(dx:Number, dy:Number, R:Number):Boolean
         {
-            if(Math.sqrt(dx*dx+dy*dy)-R<=0)
-                return false;
-            else
-                return true;
+            return Math.sqrt(dx * dx + dy * dy) - R > 0;
         }
 
+        //конструктор
         public function Config(config:String,numberOfEnemies:int) {
+            //Если не обнаружен конфиг, то сами создаем его
             if(config=="")
                 GenerateColorConfig();
             GenerateEnemies(numberOfEnemies);
@@ -112,6 +123,7 @@ import mx.core.IFlexAsset;
         }
         public static function getEnemyColorsCount():int
         {
+
             var obj:Object=data.getItem("enemy");
             var colorsCount:int=0;
             for(var prop in obj)
@@ -136,18 +148,14 @@ import mx.core.IFlexAsset;
         public static function getUserColor():int
         {
             var User:Object = data.getItem("user");
-            var colorArray=User.color;
+            var colorArray:Array=User.color;
             return ConvertArrayToInt(colorArray);
         }
         public static function ConvertArrayToInt(array:Array):int
         {
-            var R:int = array[0];
-            var G:int = array[1];
-            var B:int = array[2];
             var colorR:int = array[0]<<16;
             var colorG:int = array[1]<<8;
             var colorB:int = array[2];
-
             var colorInt:int = colorR+colorG+colorB;
             return colorInt;
         }

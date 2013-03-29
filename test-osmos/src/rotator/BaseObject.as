@@ -15,44 +15,104 @@ import flash.security.X500DistinguishedName;
 
 public class BaseObject extends Sprite {
 
+    /**
+     * Размер
+     */
     private var Size:Number=40;
+    /**
+     * Цвет
+     */
     private var Color:Number=0;
+    /**
+     * Тип объекта
+     */
     protected var type:Number = 0;
+    /**
+     * Ускорение по X
+     */
     public var VelocityX:Number = 0;
+    /**
+     * Ускорение по Y
+     */
     public var VelocityY:Number = 0;
+    /**
+     * Максимальная скорость
+     */
     protected var MaxSpeed:Number = 5;
+    /**
+     * Необходимо ли удалять объект
+     */
     private var ToDestroy:Boolean = false;
+    /**
+     * Ссылка на главный класс
+     */
     public var test:Test;
+    /**
+     * предыдущее значение x
+     */
     protected var prevDx:Number = 0;
+    /**
+     * предыдущее значение y
+     */
     protected var prevDy:Number = 0;
 
+    /**
+     * getter
+     * @return
+     */
     public function getToDestroy():Boolean
     {
         return ToDestroy;
     }
+
+    /**
+     * setter
+     */
     public function setToDestroy():void
     {
         ToDestroy=true;
     }
 
+    /**
+     * getter
+     * @return
+     */
     public function getX():Number
     {
         return this.x;
     }
+
+    /**
+     * getter
+     * @return
+     */
     public function getY():Number
     {
         return this.y;
     }
 
+    /**
+     * getter
+     * @return
+     */
     public function getType():Number
     {
         return this.type;
     }
 
+    /**
+     * get the size of the object. Notice, that it varies in ten times of real pixel size.
+     * @return
+     */
     public function getSize():Number
     {
         return Size;
     }
+
+    /**
+     * установка размера объекта. Учесть, что разница реального размера и задаваемого - 10 раз.
+     * @param size
+     */
     public function setSize(size:Number):void
     {
         Config.checkMaxSize(size);
@@ -67,13 +127,20 @@ public class BaseObject extends Sprite {
     public virtual function Draw():void
     {
 
-
     }
+
+    /**
+     * Отрисовать серый круг. Обозначенные серым кружком объекты можно есть.
+     */
     public virtual function DrawSimpleCircle():void
     {
         test.backGround.graphics.beginFill(0xEEEEEE,0.8);
         test.backGround.graphics.drawCircle(this.x, this.y, this.getSize()/10+1);
     }
+
+    /**
+     * Отрисовать красный круг. Обозначенные им объекты являются опасными.
+     */
     public virtual function DrawEatingCircle():void
     {
         //test.backGround.graphics.beginFill(0x00DD00,1.0);
@@ -81,13 +148,28 @@ public class BaseObject extends Sprite {
         test.backGround.graphics.drawCircle(this.x, this.y, this.getSize()/10+1);
     }
 
+    /**
+     * Передвинуть объект
+     */
     public virtual function Move():void
     {
+        /**
+         * мера убывания скорости
+         */
         var DegradationRate:Number = Config.DegradationRate;
         var dx:Number=VelocityX,dy:Number=VelocityY;
+        /**
+         * Проверка на минимальное значение скорости, ниже которого она зануляется
+         */
         if(Math.abs(VelocityX)>0.01)
         {
+            /**
+             * Перемещение
+             */
             this.x+=dx;
+            /**
+             * Рикошет от стенок
+             */
             if(this.x+dx-this.getSize()/10<0)
             {
                 this.x=this.getSize()/10;
@@ -105,9 +187,18 @@ public class BaseObject extends Sprite {
 
             this.VelocityX=0.0;
         }
+        /**
+         * Проверка на минимальное значение скорости, ниже которого она зануляется
+         */
         if(Math.abs(VelocityY)>0.01)
         {
+            /**
+             * Перемещение
+             */
             this.y+=dy;
+            /**
+             * Рикошет
+             */
             if(this.y+dy-this.getSize()/10<0)
             {
                 this.y=this.getSize()/10;
@@ -127,7 +218,7 @@ public class BaseObject extends Sprite {
         this.prevDx=dx;
         this.prevDy=dy;
     }
-    public function AddVelocity(X:Number, Y:Number)
+    public function AddVelocity(X:Number, Y:Number):void
     {
         if(Math.abs(this.VelocityX+X)<Config.MaxVelocity)
             this.VelocityX+=X;

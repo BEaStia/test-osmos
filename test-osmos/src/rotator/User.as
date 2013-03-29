@@ -8,6 +8,7 @@
 package rotator {
 import flash.display.Stage;
 import flash.events.ErrorEvent;
+import flash.events.ErrorEvent;
 import flash.events.Event;
 import flash.events.IOErrorEvent;
 import flash.net.URLLoader;
@@ -29,6 +30,11 @@ public class User {
         this.test = _test;
     }
 
+    /**
+     * Добавление рекорда. Часть первая: получение данных из вк
+     * @param result
+     * @param stage
+     */
     public function AddRecord(result:Number,stage:Stage):void
     {
         var flashVars: Object = stage.loaderInfo.parameters as Object;
@@ -40,32 +46,42 @@ public class User {
             f.uid = '1';
             e.push(f);
             onComplete(e);
-
         }
         else
         {
             var VK: APIConnection = new APIConnection(flashVars);
-
-            //VK.api('users.get',flashVars['viewer_id']);
             VK.api('users.get',{uids: flashVars['viewer_id']},onComplete,onError);
         }
-
     }
+
+    /**
+     * Функция, вызываемая после выполнения запроса по добавлению объекта. Часть вторая: отправка данных на сервер
+     * @param e
+     */
     public function onComplete(e:Object):void
     {
-        //SendData("complete"+e[0]['first_name']+" "+e[0]['last_name']);
+        /**
+         * Создание запроса
+         */
         var req:URLRequest = new URLRequest("http://test-project.16mb.com/index.php/records/addRecord");
         req.method = URLRequestMethod.POST;
         var UrlVars:URLVariables=new URLVariables();
         UrlVars.result=test.tf.text;
+        /**
+         * Кодирование имени
+         */
         var encoder:Base64Encoder = new Base64Encoder();
         encoder.encodeUTFBytes(e[0]['first_name']+":"+e[0]['last_name']);
         UrlVars.encoded=encoder.toString();
-
+        /**
+         * Кодирование ссылка на пользователя
+         */
         var encoder:Base64Encoder = new Base64Encoder();
         encoder.encodeUTFBytes('http://vk.com/id'+e[0]['uid']);
         UrlVars.anchor=encoder.toString();
-
+        /**
+         * Окончательное формирование запроса
+         */
         req.data = UrlVars;
 
         var loader:URLLoader = new URLLoader();
@@ -75,10 +91,14 @@ public class User {
     }
     public function onError(e:ErrorEvent):void
     {
-        //SendData("error"+ e.toString());
+        SendData("error"+ e.toString());
         trace(e);
     }
 
+    /**
+     * Маленький аналог логирования на сервер
+     * @param str  - передаваемая строка
+     */
     public function SendData(str:String):void
     {
 
@@ -88,7 +108,7 @@ public class User {
         UrlVars.result=str;
         req.data = UrlVars;
         var loader:URLLoader = new URLLoader();
-        loader.addEventListener(IOErrorEvent.IO_ERROR, onError);
+        loader.addEventListener(IOErrorEvent.IO_ERROR, function(e:ErrorEvent){trace(e);});
         loader.load(req);
     }
     public function Show(event:Event):void

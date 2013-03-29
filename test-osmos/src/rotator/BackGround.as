@@ -19,12 +19,20 @@ public class BackGround extends Sprite{
     private var size:int = 5;//размерность силы отталкивания
     private var MouseX:int = 0;//положение щелчка по X
     private var MouseY:int = 0;//положение щелчка по Y
+    /**
+     * Цвет фона
+     */
     private var bkColor1:int = 0x182E85;
-    private var bkColor2:int = 0x111111;
     private var x0:int = 0;
     private var y0:int = 0;
-    private var xMax:int = 1024;
-    private var yMax:int = 600;
+    /**
+     * макс. X
+     */
+    private var xMax:int = 1920;
+    /**
+     * макс. Y
+     */
+    private var yMax:int = 1080;
 
     public function BackGround() {
         xMax = Config.windowWidth;
@@ -37,7 +45,6 @@ public class BackGround extends Sprite{
         return size;
     }
     public function onMouseDown(event:MouseEvent):void {
-        //size = 0;
         state = 1;
         MouseX = event.localX;
         MouseY = event.localY;
@@ -48,10 +55,6 @@ public class BackGround extends Sprite{
     }
     public function onMouseMove(event:MouseEvent):void
     {
-        if(state == 1)
-        {
-
-        }
         MouseX=event.localX;
         MouseY = event.localY;
     }

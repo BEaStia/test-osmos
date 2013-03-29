@@ -65,7 +65,12 @@ public class Menu extends Sprite {
         }
         super();
     }
-    public function ShowMenu(event:MouseEvent)
+
+    /**
+     * Нажатие на "меню"
+     * @param event
+     */
+    public function ShowMenu(event:MouseEvent):void
     {
         ClearTable();
         if(this.ListVisible)
@@ -79,28 +84,46 @@ public class Menu extends Sprite {
 
         }
     }
-    public function SwitchFullScreen(event:MouseEvent)
+
+    /**
+     * Нажатие на "полный экран"
+     * @param event
+     */
+    public function SwitchFullScreen(event:MouseEvent):void
     {
         test.doFullScreen();
         HideRecords();
     }
-    public function Restart(event:MouseEvent)
+
+    /**
+     * нажатие на "рестарт"
+     * @param event
+     */
+    public function Restart(event:MouseEvent):void
     {
         test.Load();
         HideRecords();
     }
-    public function Pause(event:MouseEvent)
+
+    /**
+     * нажатие на "пауза"
+     * @param event
+     */
+    public function Pause(event:MouseEvent):void
     {
         test.Pause();
         HideRecords();
     }
+
+    /**
+     * Отрисовка меню
+     * @param graphics
+     */
     public function Draw(graphics:Graphics):void
     {
         graphics.clear();
-
         graphics.beginFill(0x040F4F);
         graphics.drawRect(Config.stage.x,Config.stage.y, Config.stage.stageWidth,Config.stage.stageHeight);
-
         for each(var object:ConcurrentObject in objects)
         {
             object.Move();
@@ -110,6 +133,10 @@ public class Menu extends Sprite {
         }
 
     }
+
+    /**
+     * Скрыть таблицу рекордов
+     */
     public function HideRecords():void
     {
         var count:Number=numChildren;
@@ -122,6 +149,10 @@ public class Menu extends Sprite {
             }
         }
     }
+
+    /**
+     * Сделать таблицу рекордов видимой
+     */
     public function ShowRecords():void
     {
         var count:Number=numChildren;
@@ -134,6 +165,10 @@ public class Menu extends Sprite {
             }
         }
     }
+
+    /**
+     * Сформировать записи в таблице рекордов по имеющимся данным
+     */
     public function createRecords():void
     {
         records = new Array();
@@ -141,7 +176,6 @@ public class Menu extends Sprite {
         {
             var tf:TextField=new FlexTextField();
             tf.text=new Record(obj).toString();
-            //var arr:Array = new Array();
             records.push(tf);
         }
         trace(records);
@@ -157,9 +191,13 @@ public class Menu extends Sprite {
         }
         HideRecords();
     }
+
+    /**
+     *
+     */
     public function MoveDown():void
     {
-
+        /*
         var count:Number=numChildren;
         Menu.currentPosition--;
         var countPerPage:Number = Math.round(Config.windowHeight/20);
@@ -173,10 +211,11 @@ public class Menu extends Sprite {
                     child.y-=20;
                 }
             }
-        }
+        }*/
     }
     public function MoveUp():void
     {
+        /*
         var count:Number=numChildren;
         Menu.currentPosition++;
         if(Menu.currentPosition+Config.windowHeight<count*20)
@@ -189,8 +228,12 @@ public class Menu extends Sprite {
                     child.y+=20;
                 }
             }
-        }
+        } */
     }
+
+    /**
+     * Очистить таблицу
+     */
     public function ClearTable():void
     {
         var count:Number = numChildren;
@@ -204,7 +247,11 @@ public class Menu extends Sprite {
             }
         }
     }
-    function LoadList():void
+
+    /**
+     * Загрузить список
+     */
+    internal function LoadList():void
     {
         var req:URLRequest = new URLRequest("http://test-project.16mb.com/index.php/records/getlist");
         req.method = URLRequestMethod.GET;
@@ -215,11 +262,17 @@ public class Menu extends Sprite {
 
         loader.load(req);
     }
-    function onError(e:ErrorEvent):void
+
+    internal function onError(e:ErrorEvent):void
     {
         trace(e);
     }
-    function onLoadList(e:Event):void
+
+    /**
+     * Действие по загрузке списка
+     * @param e
+     */
+    internal function onLoadList(e:Event):void
     {
         Menu.currentPosition = 0;
         Menu.recordArray = Array(JSON.parse(e.target.data))[0];
