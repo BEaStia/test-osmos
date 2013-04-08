@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="framework" type="flex">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Загрузки/flex/frameworks/libs/framework.swc!/" />
-      <root url="jar://$PROJECT_DIR$/../../Загрузки/flex/frameworks/libs/spark.swc!/" />
       <root url="jar://$PROJECT_DIR$/devarc_core_v0.9.swc!/" />
     </CLASSES>
     <JAVADOC />

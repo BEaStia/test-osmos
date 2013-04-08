@@ -64,5 +64,10 @@ public class BackGround extends Sprite{
         this.graphics.beginFill(bkColor1);
         this.graphics.drawRect(x0,y0,xMax,yMax);
     }
+
+    public function removeAllChildren():void {
+        while(this.numChildren!=0)
+            this.removeChildren(0);
+    }
 }
 }

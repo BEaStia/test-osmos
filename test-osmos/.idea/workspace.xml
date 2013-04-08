@@ -4,19 +4,19 @@
     <list default="true" id="b8ad5420-0da8-4e7a-8350-5c55a506d328" name="Default" comment="loading&#10;" />
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Test.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364565652851" ignored="false" />
-    <file path="/fragment.js2" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364546347942" ignored="false" />
+    <file path="/Test.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365419233207" ignored="false" />
+    <file path="/fragment.js2" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365418860924" ignored="false" />
     <file path="/SimpleRotator.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363338820685" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363360701933" ignored="false" />
     <file path="/fragment.java" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363340729101" ignored="false" />
     <file path="/BaseObject.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364562472158" ignored="false" />
-    <file path="/BackGround.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364563090401" ignored="false" />
+    <file path="/BackGround.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365419228997" ignored="false" />
     <file path="/a.dummy" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363349339963" ignored="false" />
     <file path="/UserObject.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363678262968" ignored="false" />
     <file path="/ConcurrentObject.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364562256559" ignored="false" />
     <file path="/1.txt" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363434303154" ignored="false" />
     <file path="/config.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363434773651" ignored="false" />
-    <file path="/Config.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364559977447" ignored="false" />
+    <file path="/Config.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365418998889" ignored="false" />
     <file path="/Menu.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364561559752" ignored="false" />
     <file path="/fragment.js" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364309136937" ignored="false" />
     <file path="/MenuButton.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363681173657" ignored="false" />
@@ -26,7 +26,7 @@
     <file path="/MyUrlLoader.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363950864160" ignored="false" />
     <file path="/User.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364561223805" ignored="false" />
     <file path="/FileTarget.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364034737898" ignored="false" />
-    <file path="/Dummy.txt" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364565515656" ignored="false" />
+    <file path="/Dummy.txt" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365418421919" ignored="false" />
     <file path="/Record.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364546969226" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +94,7 @@
       <file leaf-file-name="Test.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="383" column="27" selection-start="11025" selection-end="11025" vertical-scroll-proportion="-2.0427098">
+            <state line="79" column="63" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.31049562">
               <folding />
             </state>
           </provider>
@@ -112,7 +112,7 @@
       <file leaf-file-name="Menu.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rotator/Menu.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="113" selection-start="5208" selection-end="5208" vertical-scroll-proportion="0.0">
+            <state line="209" column="40" selection-start="5376" selection-end="5376" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,7 +130,7 @@
       <file leaf-file-name="Config.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rotator/Config.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="0" selection-start="5527" selection-end="5527" vertical-scroll-proportion="0.0">
+            <state line="119" column="37" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,8 +157,10 @@
       <file leaf-file-name="BackGround.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rotator/BackGround.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="16" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="66" column="4" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,16 +205,16 @@
         <option value="$PROJECT_DIR$/src/rotator/MyUrlLoader.as" />
         <option value="$PROJECT_DIR$/src/com/adobe/air/logging/FileTarget.as" />
         <option value="$PROJECT_DIR$/src/com/hurlant/util/Base64.as" />
-        <option value="$PROJECT_DIR$/src/rotator/Config.as" />
         <option value="$PROJECT_DIR$/src/rotator/User.as" />
         <option value="$PROJECT_DIR$/src/rotator/MyTrace.as" />
         <option value="$PROJECT_DIR$/src/rotator/Menu.as" />
         <option value="$PROJECT_DIR$/src/rotator/Record.as" />
         <option value="$PROJECT_DIR$/src/rotator/ConcurrentObject.as" />
         <option value="$PROJECT_DIR$/src/rotator/BaseObject.as" />
-        <option value="$PROJECT_DIR$/src/rotator/BackGround.as" />
         <option value="$PROJECT_DIR$/src/rotator/SButton.as" />
+        <option value="$PROJECT_DIR$/src/rotator/Config.as" />
         <option value="$PROJECT_DIR$/src/Test.as" />
+        <option value="$PROJECT_DIR$/src/rotator/BackGround.as" />
       </list>
     </option>
   </component>
@@ -250,6 +252,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -268,14 +271,17 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-osmos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -291,8 +297,8 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
@@ -334,6 +340,19 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -360,19 +379,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -411,21 +417,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -458,6 +449,21 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="test" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -584,19 +590,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498615" sideWeight="0.6071044" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21069519" sideWeight="0.6286663" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21069519" sideWeight="0.61759824" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24491979" sideWeight="0.74488103" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21069519" sideWeight="0.37852794" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25540167" sideWeight="0.4876211" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.6071044" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24491979" sideWeight="0.25124517" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24491979" sideWeight="0.2423907" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.49806094" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25540167" sideWeight="0.2615716" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15052573" sideWeight="0.7550802" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15052573" sideWeight="0.7893048" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.49585405" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -637,7 +643,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -663,29 +669,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="flex">
           <url>file://$PROJECT_DIR$/src/Test.as</url>
-          <line>314</line>
+          <line>313</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="flex">
           <url>file://$PROJECT_DIR$/src/Test.as</url>
-          <line>276</line>
+          <line>275</line>
           <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="flex">
-          <url>file://$PROJECT_DIR$/src/Test.as</url>
-          <line>346</line>
-          <option name="timeStamp" value="111" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="flex">
-          <url>file://$PROJECT_DIR$/src/rotator/Config.as</url>
-          <line>118</line>
-          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="119" />
+      <option name="time" value="124" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -693,17 +689,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/rotator/BaseObject.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="22" selection-start="4327" selection-end="4327" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rotator/BackGround.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="16" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -736,30 +727,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rotator/Menu.as">
+    <entry file="file://$PROJECT_DIR$/src/rotator/SButton.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="113" selection-start="5208" selection-end="5208" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rotator/Record.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rotator/Config.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="0" selection-start="5527" selection-end="5527" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rotator/ConcurrentObject.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="9" selection-start="4280" selection-end="4280" vertical-scroll-proportion="0.0">
+        <state line="30" column="57" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -771,20 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rotator/BackGround.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rotator/SButton.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="57" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rotator/MyTrace.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="50" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
@@ -792,9 +748,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/rotator/Menu.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="209" column="40" selection-start="5376" selection-end="5376" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rotator/Record.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="23" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Загрузки/flex/frameworks/libs/player/11.1/playerglobal.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3120" column="19" selection-start="136179" selection-end="136179" vertical-scroll-proportion="0.31805158">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rotator/Config.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="37" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rotator/ConcurrentObject.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="9" selection-start="4280" selection-end="4280" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rotator/BackGround.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="4" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="383" column="27" selection-start="11025" selection-end="11025" vertical-scroll-proportion="-2.0427098">
+        <state line="79" column="63" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.31049562">
           <folding />
         </state>
       </provider>
@@ -828,6 +828,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>actionmailer (v3.2.13, ruby-1.8.7-p352) [gem]</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

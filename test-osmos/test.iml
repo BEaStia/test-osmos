@@ -8,9 +8,6 @@
             <entry library-name="framework" library-level="project">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-name="framework" library-level="application">
-              <dependency linkage="Merged" />
-            </entry>
           </entries>
           <sdk name="flex" />
         </dependencies>

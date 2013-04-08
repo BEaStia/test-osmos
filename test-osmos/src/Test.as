@@ -105,8 +105,7 @@ public class Test extends Sprite {
         /**
          * Удаление всех объектов на фоне
          */
-        if(this.backGround.numChildren!=0)
-            this.backGround.removeChildren();
+        this.backGround.removeAllChildren();
         /**
          * И соответственно их генерация
          */

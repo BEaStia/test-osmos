@@ -13,7 +13,9 @@ import com.developmentarc.core.datastructures.utils.HashTable;
 
 import flash.display.Stage;
 
-    public class Config {
+import vk.api.serialization.json.JSON;
+
+public class Config {
         //Текст для конфигурации
         public static var configText:String ="";
         //Данные цветов
@@ -116,7 +118,7 @@ import flash.display.Stage;
                 GenerateColorConfig();
             GenerateEnemies(numberOfEnemies);
 
-            var conf:Object = JSON.parse(configText);
+            var conf:Object = vk.api.serialization.json.JSON.decode(configText);
             data = new HashTable();
             data.addItem("user",conf.user);
             data.addItem("enemy",conf.enemy);
