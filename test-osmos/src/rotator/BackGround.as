@@ -67,7 +67,7 @@ public class BackGround extends Sprite{
 
     public function removeAllChildren():void {
         while(this.numChildren!=0)
-            this.removeChildren(0);
+            this.removeChildAt(0);
     }
 }
 }

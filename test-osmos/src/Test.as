@@ -11,16 +11,15 @@ import flash.events.Event;
 import flash.events.IOErrorEvent;
 import flash.events.KeyboardEvent;
 import flash.events.MouseEvent;
-import flash.geom.Rectangle;
 import flash.media.Sound;
 import flash.net.URLLoader;
 import flash.net.URLRequest;
 import flash.net.URLRequestMethod;
-import flash.sampler.getSavedThis;
+
 import flash.system.Security;
-import flash.system.System;
+
 import flash.text.TextField;
-import flash.ui.Mouse;
+
 import flash.utils.Timer;
 import rotator.BackGround;
 import rotator.BaseObject;
@@ -30,6 +29,8 @@ import rotator.Menu;
 import rotator.MyTrace;
 import rotator.User;
 import rotator.UserObject;
+
+import vk.api.serialization.json.JSON;
 
 [SWF(backgroundColor="0xec9900")]
 public class Test extends Sprite {
@@ -176,7 +177,8 @@ public class Test extends Sprite {
     public function Start():void//вызывается по окончанию загрузки файлов
     {
         this.removeEventListener(Event.ENTER_FRAME,_loading);
-        removeChildren();
+        while(this.numChildren!=0)
+            removeChildAt(0);
         //создание новой конфигурации
         var config:Config;
         Config.windowWidth=stage.stageWidth;
@@ -337,7 +339,7 @@ public class Test extends Sprite {
         function onLoadList(e:Event):void
         {
             Menu.currentPosition = 0;
-            Menu.recordArray =  new Array(JSON.parse(e.target.data))[0];
+            Menu.recordArray =  new Array(JSON.decode(e.target.data))[0];
             Menu.Loaded = true;
             /**
              * Игра начинается только по окончанию всех загрузок

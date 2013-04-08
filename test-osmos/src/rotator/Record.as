@@ -6,9 +6,6 @@
  * To change this template use File | Settings | File Templates.
  */
 package rotator {
-import flash.events.NetDataEvent;
-
-import org.osmf.events.TimeEvent;
 
 public class Record
 {

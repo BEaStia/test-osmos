@@ -14,16 +14,13 @@ import flash.events.ErrorEvent;
 import flash.events.Event;
 import flash.events.IOErrorEvent;
 import flash.events.MouseEvent;
-import flash.net.SecureSocket;
 import flash.net.URLLoader;
 import flash.net.URLRequest;
 import flash.net.URLRequestMethod;
-import flash.sampler.getSavedThis;
 import flash.text.TextField;
-import flash.text.TextSnapshot;
-
-import mx.core.FlexSprite;
 import mx.core.FlexTextField;
+
+import vk.api.serialization.json.JSON;
 
 public class Menu extends Sprite {
     private var objects:Array;
@@ -275,7 +272,7 @@ public class Menu extends Sprite {
     internal function onLoadList(e:Event):void
     {
         Menu.currentPosition = 0;
-        Menu.recordArray = Array(JSON.parse(e.target.data))[0];
+        Menu.recordArray = Array(JSON.decode(e.target.data))[0];
         Menu.Loaded = true;
         createRecords();
         ShowRecords();

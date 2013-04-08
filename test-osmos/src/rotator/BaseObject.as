@@ -11,7 +11,6 @@ import flash.display.Graphics;
 import flash.display.Shape;
 import flash.display.Sprite;
 import flash.events.Event;
-import flash.security.X500DistinguishedName;
 
 public class BaseObject extends Sprite {
 

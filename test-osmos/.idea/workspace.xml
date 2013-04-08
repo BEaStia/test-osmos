@@ -4,20 +4,20 @@
     <list default="true" id="b8ad5420-0da8-4e7a-8350-5c55a506d328" name="Default" comment="loading&#10;" />
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Test.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365419233207" ignored="false" />
-    <file path="/fragment.js2" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365418860924" ignored="false" />
+    <file path="/Test.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365421293441" ignored="false" />
+    <file path="/fragment.js2" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365421536397" ignored="false" />
     <file path="/SimpleRotator.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363338820685" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363360701933" ignored="false" />
     <file path="/fragment.java" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363340729101" ignored="false" />
     <file path="/BaseObject.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364562472158" ignored="false" />
-    <file path="/BackGround.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365419228997" ignored="false" />
+    <file path="/BackGround.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365421308755" ignored="false" />
     <file path="/a.dummy" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363349339963" ignored="false" />
     <file path="/UserObject.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363678262968" ignored="false" />
     <file path="/ConcurrentObject.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364562256559" ignored="false" />
     <file path="/1.txt" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363434303154" ignored="false" />
     <file path="/config.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363434773651" ignored="false" />
     <file path="/Config.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365418998889" ignored="false" />
-    <file path="/Menu.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364561559752" ignored="false" />
+    <file path="/Menu.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365421363118" ignored="false" />
     <file path="/fragment.js" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364309136937" ignored="false" />
     <file path="/MenuButton.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363681173657" ignored="false" />
     <file path="/Trace.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363935126230" ignored="false" />
@@ -26,7 +26,7 @@
     <file path="/MyUrlLoader.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1363950864160" ignored="false" />
     <file path="/User.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364561223805" ignored="false" />
     <file path="/FileTarget.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364034737898" ignored="false" />
-    <file path="/Dummy.txt" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365418421919" ignored="false" />
+    <file path="/Dummy.txt" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1365420361399" ignored="false" />
     <file path="/Record.as" changelist="b8ad5420-0da8-4e7a-8350-5c55a506d328" time="1364546969226" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,10 +91,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Test.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Test.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="63" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.31049562">
+            <state line="21" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,11 +109,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Menu.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/rotator/Menu.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="209" column="40" selection-start="5376" selection-end="5376" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="31" column="64" selection-start="858" selection-end="858" vertical-scroll-proportion="-1.701031">
+              <folding>
+                <element signature="e#169#204#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +123,7 @@
       <file leaf-file-name="Record.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rotator/Record.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="23" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+            <state line="30" column="61" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,8 +150,10 @@
       <file leaf-file-name="BaseObject.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rotator/BaseObject.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="22" selection-start="4327" selection-end="4327" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="12" column="26" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#173#203#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,10 +161,8 @@
       <file leaf-file-name="BackGround.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rotator/BackGround.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="4" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="69" column="68" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -207,20 +209,20 @@
         <option value="$PROJECT_DIR$/src/com/hurlant/util/Base64.as" />
         <option value="$PROJECT_DIR$/src/rotator/User.as" />
         <option value="$PROJECT_DIR$/src/rotator/MyTrace.as" />
-        <option value="$PROJECT_DIR$/src/rotator/Menu.as" />
-        <option value="$PROJECT_DIR$/src/rotator/Record.as" />
         <option value="$PROJECT_DIR$/src/rotator/ConcurrentObject.as" />
-        <option value="$PROJECT_DIR$/src/rotator/BaseObject.as" />
         <option value="$PROJECT_DIR$/src/rotator/SButton.as" />
         <option value="$PROJECT_DIR$/src/rotator/Config.as" />
-        <option value="$PROJECT_DIR$/src/Test.as" />
         <option value="$PROJECT_DIR$/src/rotator/BackGround.as" />
+        <option value="$PROJECT_DIR$/src/rotator/BaseObject.as" />
+        <option value="$PROJECT_DIR$/src/rotator/Record.as" />
+        <option value="$PROJECT_DIR$/src/Test.as" />
+        <option value="$PROJECT_DIR$/src/rotator/Menu.as" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="x" value="-1855" />
+    <option name="y" value="1104" />
     <option name="width" value="1855" />
     <option name="height" value="1056" />
   </component>
@@ -252,8 +254,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,19 +276,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-osmos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Загрузки/flex4.5/runtimes/player/10.2/lnx/flashplayerdebugger" />
     <property name="project.structure.side.proportion" value="0.11778563" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="flex.debug.filter.swf.load.unload" value="false" />
@@ -297,8 +313,8 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
@@ -340,19 +356,6 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -379,6 +382,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -417,6 +433,21 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -451,21 +482,6 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="test" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="test" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -473,7 +489,7 @@
       <option name="airProgramParameters" value="" />
       <option name="appDescriptorForEmulator" value="Android" />
       <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="debuggerSdkRaw" value="flex4.5" />
       <option name="emulator" value="NexusOne" />
       <option name="emulatorAdlOptions" value="" />
       <option name="fastPackaging" value="true" />
@@ -484,7 +500,7 @@
         <LauncherParameters>
           <option name="browserFamily" value="FIREFOX" />
           <option name="launcherType" value="Player" />
-          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+          <option name="playerPath" value="$PROJECT_DIR$/../Загрузки/flex4.5/runtimes/player/10.2/lnx/flashplayerdebugger" />
         </LauncherParameters>
       </option>
       <option name="mobileRunTarget" value="Emulator" />
@@ -582,31 +598,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="-1855" y="1104" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.4980631" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.49142224" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498615" sideWeight="0.6071044" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21069519" sideWeight="0.61759824" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21069519" sideWeight="0.6148312" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21069519" sideWeight="0.37852794" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24491979" sideWeight="0.7581627" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25540167" sideWeight="0.4876211" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.6071044" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24491979" sideWeight="0.2423907" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24491979" sideWeight="0.23796348" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.49806094" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25540167" sideWeight="0.2615716" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15052573" sideWeight="0.7893048" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15052573" sideWeight="0.7550802" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.49585405" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.49142224" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3989305" sideWeight="0.5323741" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -669,12 +685,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="flex">
           <url>file://$PROJECT_DIR$/src/Test.as</url>
-          <line>313</line>
-          <option name="timeStamp" value="109" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="flex">
-          <url>file://$PROJECT_DIR$/src/Test.as</url>
-          <line>275</line>
+          <line>277</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
       </breakpoints>
@@ -692,9 +703,7 @@
     <entry file="file://$PROJECT_DIR$/src/rotator/BackGround.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="16" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,34 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rotator/BaseObject.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="22" selection-start="4327" selection-end="4327" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rotator/MyTrace.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="50" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rotator/Menu.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="40" selection-start="5376" selection-end="5376" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rotator/Record.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../Загрузки/flex/frameworks/libs/player/11.1/playerglobal.swc!/library.swf">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3120" column="19" selection-start="136179" selection-end="136179" vertical-scroll-proportion="0.31805158">
@@ -785,17 +766,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rotator/BackGround.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="4" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.0">
+        <state line="69" column="68" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rotator/BaseObject.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="26" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#173#203#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="63" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.31049562">
+        <state line="21" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rotator/MyTrace.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="50" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rotator/Record.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="61" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rotator/Menu.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="64" selection-start="858" selection-end="858" vertical-scroll-proportion="-1.701031">
+          <folding>
+            <element signature="e#169#204#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -840,7 +851,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>flex</last-edited>
+          <last-edited>flex4.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
